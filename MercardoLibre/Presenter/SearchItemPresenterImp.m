@@ -11,7 +11,7 @@
 #import "SearchProductView.h"
 #import "SearchServices.h"
 #import "SearchResult.h"
-
+#import "SearchItemViewController.h"
 @implementation SearchItemPresenterImp
 
 @synthesize view;

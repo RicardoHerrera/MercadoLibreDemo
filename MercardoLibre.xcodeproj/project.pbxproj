@@ -18,6 +18,19 @@
 		C506CD9B210FFE9F005C220F /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C506CD9A210FFE9F005C220F /* ProductTableViewCell.m */; };
 		C506CD9E210FFEC9005C220F /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C506CD9D210FFEC9005C220F /* ProductTableViewCell.xib */; };
 		C506CDA421100821005C220F /* SearchServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C506CDA321100821005C220F /* SearchServices.m */; };
+		C50EA3262111810100226C43 /* ItemDetailPresenterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA3242111810100226C43 /* ItemDetailPresenterImp.m */; };
+		C50EA32A2111811B00226C43 /* ItemDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA3292111811B00226C43 /* ItemDetailTableViewController.m */; };
+		C50EA3382111812800226C43 /* ItemInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA32D2111812800226C43 /* ItemInfoTableViewCell.m */; };
+		C50EA3392111812800226C43 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50EA32E2111812800226C43 /* ItemCollectionViewCell.xib */; };
+		C50EA33A2111812800226C43 /* ItemDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50EA32F2111812800226C43 /* ItemDescriptionTableViewCell.xib */; };
+		C50EA33B2111812800226C43 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA3312111812800226C43 /* ItemCollectionViewCell.m */; };
+		C50EA33C2111812800226C43 /* DetailCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50EA3322111812800226C43 /* DetailCollectionTableViewCell.xib */; };
+		C50EA33D2111812800226C43 /* DetailCollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA3332111812800226C43 /* DetailCollectionTableViewCell.m */; };
+		C50EA33E2111812800226C43 /* ItemInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50EA3352111812800226C43 /* ItemInfoTableViewCell.xib */; };
+		C50EA33F2111812800226C43 /* ItemDescriptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA3372111812800226C43 /* ItemDescriptionTableViewCell.m */; };
+		C50EA3422111814900226C43 /* ItemDetailServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA3402111814900226C43 /* ItemDetailServices.m */; };
+		C50EA3452111815200226C43 /* ItemPictures.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA3432111815200226C43 /* ItemPictures.m */; };
+		C50EA34B2111816C00226C43 /* SearchItemRouterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA3472111816C00226C43 /* SearchItemRouterImp.m */; };
 		C5D525BB21101FED0043E664 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D525BA21101FED0043E664 /* Product.m */; };
 		C5D525BE211034740043E664 /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D525BD211034740043E664 /* SearchResult.m */; };
 		C5D525C821104BB30043E664 /* SearchItemPresenterImp.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D525C721104BB30043E664 /* SearchItemPresenterImp.m */; };
@@ -59,6 +72,31 @@
 		C506CD9D210FFEC9005C220F /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		C506CDA221100821005C220F /* SearchServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchServices.h; sourceTree = "<group>"; };
 		C506CDA321100821005C220F /* SearchServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchServices.m; sourceTree = "<group>"; };
+		C50EA323211180F200226C43 /* ItemDetailPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailPresenter.h; sourceTree = "<group>"; };
+		C50EA3242111810100226C43 /* ItemDetailPresenterImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailPresenterImp.m; sourceTree = "<group>"; };
+		C50EA3252111810100226C43 /* ItemDetailPresenterImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailPresenterImp.h; sourceTree = "<group>"; };
+		C50EA3272111810F00226C43 /* ItemDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailView.h; sourceTree = "<group>"; };
+		C50EA3282111811B00226C43 /* ItemDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailTableViewController.h; sourceTree = "<group>"; };
+		C50EA3292111811B00226C43 /* ItemDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailTableViewController.m; sourceTree = "<group>"; };
+		C50EA32C2111812800226C43 /* DetailCollectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCollectionTableViewCell.h; sourceTree = "<group>"; };
+		C50EA32D2111812800226C43 /* ItemInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemInfoTableViewCell.m; sourceTree = "<group>"; };
+		C50EA32E2111812800226C43 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		C50EA32F2111812800226C43 /* ItemDescriptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		C50EA3302111812800226C43 /* ItemDescriptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDescriptionTableViewCell.h; sourceTree = "<group>"; };
+		C50EA3312111812800226C43 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
+		C50EA3322111812800226C43 /* DetailCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		C50EA3332111812800226C43 /* DetailCollectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCollectionTableViewCell.m; sourceTree = "<group>"; };
+		C50EA3342111812800226C43 /* ItemInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemInfoTableViewCell.h; sourceTree = "<group>"; };
+		C50EA3352111812800226C43 /* ItemInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemInfoTableViewCell.xib; sourceTree = "<group>"; };
+		C50EA3362111812800226C43 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
+		C50EA3372111812800226C43 /* ItemDescriptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDescriptionTableViewCell.m; sourceTree = "<group>"; };
+		C50EA3402111814900226C43 /* ItemDetailServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailServices.m; sourceTree = "<group>"; };
+		C50EA3412111814900226C43 /* ItemDetailServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailServices.h; sourceTree = "<group>"; };
+		C50EA3432111815200226C43 /* ItemPictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemPictures.m; sourceTree = "<group>"; };
+		C50EA3442111815200226C43 /* ItemPictures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemPictures.h; sourceTree = "<group>"; };
+		C50EA3472111816C00226C43 /* SearchItemRouterImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchItemRouterImp.m; sourceTree = "<group>"; };
+		C50EA3482111816C00226C43 /* SearchItemRouterImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchItemRouterImp.h; sourceTree = "<group>"; };
+		C50EA34A2111816C00226C43 /* SearchItemRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchItemRouter.h; sourceTree = "<group>"; };
 		C5D525B921101FED0043E664 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		C5D525BA21101FED0043E664 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		C5D525BC211034740043E664 /* SearchResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
@@ -139,6 +177,7 @@
 				C506CD9F21100536005C220F /* Model */,
 				C506CDA021100536005C220F /* Service */,
 				C5D525C321104AD30043E664 /* Presenter */,
+				C50EA3462111816C00226C43 /* Router */,
 				C506CD79210FFBAA005C220F /* Assets.xcassets */,
 				C506CD7B210FFBAA005C220F /* LaunchScreen.storyboard */,
 				C506CD7E210FFBAA005C220F /* Info.plist */,
@@ -168,6 +207,8 @@
 		C506CD95210FFCA4005C220F /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				C50EA3282111811B00226C43 /* ItemDetailTableViewController.h */,
+				C50EA3292111811B00226C43 /* ItemDetailTableViewController.m */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -193,6 +234,7 @@
 		C506CD98210FFD09005C220F /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				C50EA32B2111812800226C43 /* Detail */,
 				C506CD9C210FFEAE005C220F /* Search */,
 			);
 			path = CustomView;
@@ -211,6 +253,8 @@
 		C506CD9F21100536005C220F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C50EA3442111815200226C43 /* ItemPictures.h */,
+				C50EA3432111815200226C43 /* ItemPictures.m */,
 				C5D525B921101FED0043E664 /* Product.h */,
 				C5D525BA21101FED0043E664 /* Product.m */,
 				C5D525BC211034740043E664 /* SearchResult.h */,
@@ -222,6 +266,8 @@
 		C506CDA021100536005C220F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				C50EA3412111814900226C43 /* ItemDetailServices.h */,
+				C50EA3402111814900226C43 /* ItemDetailServices.m */,
 				C506CDA221100821005C220F /* SearchServices.h */,
 				C506CDA321100821005C220F /* SearchServices.m */,
 			);
@@ -237,9 +283,47 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		C50EA32B2111812800226C43 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C50EA32C2111812800226C43 /* DetailCollectionTableViewCell.h */,
+				C50EA32D2111812800226C43 /* ItemInfoTableViewCell.m */,
+				C50EA32E2111812800226C43 /* ItemCollectionViewCell.xib */,
+				C50EA32F2111812800226C43 /* ItemDescriptionTableViewCell.xib */,
+				C50EA3302111812800226C43 /* ItemDescriptionTableViewCell.h */,
+				C50EA3312111812800226C43 /* ItemCollectionViewCell.m */,
+				C50EA3322111812800226C43 /* DetailCollectionTableViewCell.xib */,
+				C50EA3332111812800226C43 /* DetailCollectionTableViewCell.m */,
+				C50EA3342111812800226C43 /* ItemInfoTableViewCell.h */,
+				C50EA3352111812800226C43 /* ItemInfoTableViewCell.xib */,
+				C50EA3362111812800226C43 /* ItemCollectionViewCell.h */,
+				C50EA3372111812800226C43 /* ItemDescriptionTableViewCell.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C50EA3462111816C00226C43 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C50EA3472111816C00226C43 /* SearchItemRouterImp.m */,
+				C50EA3482111816C00226C43 /* SearchItemRouterImp.h */,
+				C50EA3492111816C00226C43 /* Protocols */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C50EA3492111816C00226C43 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C50EA34A2111816C00226C43 /* SearchItemRouter.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		C5D525BF211048FF0043E664 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				C50EA3272111810F00226C43 /* ItemDetailView.h */,
 				C5D525C02110491B0043E664 /* SearchProductView.h */,
 			);
 			path = Protocols;
@@ -249,6 +333,8 @@
 			isa = PBXGroup;
 			children = (
 				C5D525C421104B180043E664 /* Protocols */,
+				C50EA3252111810100226C43 /* ItemDetailPresenterImp.h */,
+				C50EA3242111810100226C43 /* ItemDetailPresenterImp.m */,
 				C5D525C621104BB30043E664 /* SearchItemPresenterImp.h */,
 				C5D525C721104BB30043E664 /* SearchItemPresenterImp.m */,
 			);
@@ -258,6 +344,7 @@
 		C5D525C421104B180043E664 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				C50EA323211180F200226C43 /* ItemDetailPresenter.h */,
 				C5D525C521104B2B0043E664 /* SearchItemPresenter.h */,
 			);
 			path = Protocols;
@@ -345,8 +432,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50EA33E2111812800226C43 /* ItemInfoTableViewCell.xib in Resources */,
 				C506CD7D210FFBAA005C220F /* LaunchScreen.storyboard in Resources */,
 				C506CD9E210FFEC9005C220F /* ProductTableViewCell.xib in Resources */,
+				C50EA33A2111812800226C43 /* ItemDescriptionTableViewCell.xib in Resources */,
+				C50EA3392111812800226C43 /* ItemCollectionViewCell.xib in Resources */,
+				C50EA33C2111812800226C43 /* DetailCollectionTableViewCell.xib in Resources */,
 				C506CD7A210FFBAA005C220F /* Assets.xcassets in Resources */,
 				C506CD78210FFBA8005C220F /* Main.storyboard in Resources */,
 			);
@@ -406,11 +497,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D525BE211034740043E664 /* SearchResult.m in Sources */,
+				C50EA33B2111812800226C43 /* ItemCollectionViewCell.m in Sources */,
+				C50EA32A2111811B00226C43 /* ItemDetailTableViewController.m in Sources */,
+				C50EA34B2111816C00226C43 /* SearchItemRouterImp.m in Sources */,
 				C506CD75210FFBA8005C220F /* SearchItemViewController.m in Sources */,
 				C506CD9B210FFE9F005C220F /* ProductTableViewCell.m in Sources */,
+				C50EA3422111814900226C43 /* ItemDetailServices.m in Sources */,
 				C506CDA421100821005C220F /* SearchServices.m in Sources */,
+				C50EA3452111815200226C43 /* ItemPictures.m in Sources */,
+				C50EA3382111812800226C43 /* ItemInfoTableViewCell.m in Sources */,
+				C50EA33D2111812800226C43 /* DetailCollectionTableViewCell.m in Sources */,
 				C5D525BB21101FED0043E664 /* Product.m in Sources */,
 				C506CD80210FFBAA005C220F /* main.m in Sources */,
+				C50EA3262111810100226C43 /* ItemDetailPresenterImp.m in Sources */,
+				C50EA33F2111812800226C43 /* ItemDescriptionTableViewCell.m in Sources */,
 				C5D525C821104BB30043E664 /* SearchItemPresenterImp.m in Sources */,
 				C506CD72210FFBA8005C220F /* AppDelegate.m in Sources */,
 			);

@@ -1,19 +1,19 @@
 //
-//  SearchItemPresenter.h
+//  SearchItemRouter.h
 //  MercardoLibre
 //
 //  Created by Ricardo Herrera on 7/31/18.
 //  Copyright © 2018 TestMercardoLibre. All rights reserved.
 //
-
+#import "Product.h"
 #import "SearchProductView.h"
 
-@protocol SearchItemPresenter<NSObject>
+@protocol SearchItemRouter<NSObject>
 
 @property(nonatomic,strong) id< SearchProductView > view;
 
 - (void)initWithView: (id < SearchProductView >) view;
 
-- (void)getProductsForText:(NSString *)searchString withOffset:(NSInteger)offset;
+- (void)navigateToDetail:(Product *)product;
 
 @end

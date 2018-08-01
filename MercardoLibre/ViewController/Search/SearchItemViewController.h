@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "SearchProductView.h"
 #import "SearchItemPresenterImp.h"
+#import "SearchItemRouterImp.h"
+
+#define kSegueNavigateToDetail @"navigateToDetail"
 
 @interface SearchItemViewController : UITableViewController <UISearchBarDelegate, SearchProductView>
 
 @property SearchItemPresenterImp *presenter;
+@property SearchItemRouterImp *router;
 
 @end
 

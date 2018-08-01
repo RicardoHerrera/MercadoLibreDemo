@@ -27,10 +27,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+     self.clearsSelectionOnViewWillAppear = true;
     self.products = [NSMutableArray new];
     self.offset = -1;
     self.presenter = [[SearchItemPresenterImp alloc] init];
     [self.presenter initWithView:self];
+    self.router = [[SearchItemRouterImp alloc] init];
+    [self.router initWithView:self];
     [self.tableView registerNib:[UINib nibWithNibName:@"ProductTableViewCell" bundle:nil]
          forCellReuseIdentifier:[ProductTableViewCell cellIdentifier]];
 }
@@ -42,6 +45,7 @@
 
 #pragma mark - UITableDatasource, UITableDelegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    // Logic to show "Cargar Más.." Cell
     if (self.products.count == 0) {
         return 0;
     } else if (self.offset == -1 && self.products.count > 0) {
@@ -73,6 +77,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == self.products.count) {
         [self.presenter getProductsForText:self.searchString withOffset:self.offset];
+    } else {
+        [self.router navigateToDetail: self.products[indexPath.row]];
     }
 }
 #pragma mark - UISearchBarDelegate

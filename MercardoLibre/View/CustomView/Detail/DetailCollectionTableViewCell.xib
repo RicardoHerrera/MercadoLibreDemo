@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DetailCollectionTableViewCellIdentifier" rowHeight="221" id="91K-Bk-oKY" customClass="DetailCollectionTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="221"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="91K-Bk-oKY" id="fX8-rY-UMD">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="220.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="VrO-aV-VMf">
+                        <rect key="frame" x="0.0" y="183" width="375" height="37"/>
+                        <color key="pageIndicatorTintColor" red="0.0" green="0.0" blue="0.4489474826388889" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="currentPageIndicatorTintColor" red="1" green="0.77010091145833337" blue="0.1806911892361111" alpha="1" colorSpace="calibratedRGB"/>
+                    </pageControl>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="cRh-dG-Jvj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="183"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="183" id="l65-NS-8Fg"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="tFY-a7-Y3h">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="91K-Bk-oKY" id="ztF-RC-bLN"/>
+                            <outlet property="delegate" destination="91K-Bk-oKY" id="AYF-KM-pgV"/>
+                        </connections>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VrO-aV-VMf" firstAttribute="top" secondItem="cRh-dG-Jvj" secondAttribute="bottom" id="2nP-kr-jAY"/>
+                    <constraint firstAttribute="trailing" secondItem="cRh-dG-Jvj" secondAttribute="trailing" id="33P-aG-ZCn"/>
+                    <constraint firstAttribute="bottom" secondItem="VrO-aV-VMf" secondAttribute="bottom" id="52i-A7-7QN"/>
+                    <constraint firstItem="cRh-dG-Jvj" firstAttribute="top" secondItem="fX8-rY-UMD" secondAttribute="top" id="O7X-Rn-jHl"/>
+                    <constraint firstItem="VrO-aV-VMf" firstAttribute="top" secondItem="cRh-dG-Jvj" secondAttribute="bottom" id="XJg-NC-6o3"/>
+                    <constraint firstItem="cRh-dG-Jvj" firstAttribute="leading" secondItem="fX8-rY-UMD" secondAttribute="leading" id="eJB-EF-BhO"/>
+                    <constraint firstAttribute="trailing" secondItem="VrO-aV-VMf" secondAttribute="trailing" id="f7q-i7-Src"/>
+                    <constraint firstItem="VrO-aV-VMf" firstAttribute="leading" secondItem="fX8-rY-UMD" secondAttribute="leading" id="i8M-46-htG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionView" destination="cRh-dG-Jvj" id="fRt-CF-Xk3"/>
+                <outlet property="pageControl" destination="VrO-aV-VMf" id="ESn-im-jnb"/>
+            </connections>
+            <point key="canvasLocation" x="-140.5" y="-31.5"/>
+        </tableViewCell>
+    </objects>
+</document>
